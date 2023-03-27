@@ -7,7 +7,7 @@ const Error = () => (
     <AppHeader />
     <Content
       title="Erreur"
-      text="Nous sommes désolé, Une erreur s'est produite."
+      text="La page que vous recherchez semble introuvable."
     />
   </Page>
 );

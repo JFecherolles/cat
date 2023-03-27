@@ -10,7 +10,7 @@ const Home = () => {
     <Page>
       <AppHeader />
       <Content
-        title="Les race de chats"
+        title="Les races de chats"
         text="Voici toutes les races de chats."
         chats={chats}
       />

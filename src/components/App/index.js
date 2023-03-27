@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 import Menu from 'src/components/Menu';
 import Home from 'src/components/Home';
-import Game from 'src/components/Chat';
+import Chat from 'src/components/Chat';
 import Error from 'src/components/Error';
 
 import Loading from './Loading';
@@ -31,8 +31,8 @@ function App({ loading }) {
 
         
         <Route
-          path="/game/:slug"
-          element={<Game />}
+          path="/chat/:slug"
+          element={<Chat />}
         />
 
         <Route

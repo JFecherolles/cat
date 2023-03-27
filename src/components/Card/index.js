@@ -8,14 +8,14 @@ const Card = ({
   title,
   origine,
   slug,
-  description,
+  
 }) => (
   <article className="card">
     <img className="card-img" src={thumbnail} alt={title} />
     <div className="card-content">
       <h2 className="card-title">{title}</h2>
       <p className="card-desc">Origine : {origine}</p>
-      <Link to={`/game/${slug}`} className="card-link">Voir le chat</Link>
+      <Link to={`/chat/${slug}`} className="card-link">Voir le chat</Link>
     </div>
   </article>
 );
