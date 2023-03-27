@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import './style.scss';
 
 const Menu = () => {
+  
   const chats = useSelector((state) => state.chats.list);
  
   return (
