@@ -6,7 +6,7 @@ import './style.scss';
 
 const AppHeader = () => (
   <header className="header">
-    <Link to="/">
+    <Link to="/cat">
       <img src={logo} className="header-logo" alt="Logo patte chat" />
     </Link>
   </header>

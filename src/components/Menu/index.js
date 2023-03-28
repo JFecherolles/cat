@@ -14,7 +14,7 @@ const Menu = () => {
         className={({ isActive }) => (
           isActive ? 'menu-link menu-link--active' : 'menu-link'
         )}
-        to="/"
+        to="/cat"
       >
         Accueil
       </NavLink>

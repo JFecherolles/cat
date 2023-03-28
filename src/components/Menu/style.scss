@@ -13,29 +13,31 @@
   overflow-y: auto; 
  
   
-  @media (max-width: vars.$small) {
-    width: vars.$smallMenuWidth;
-    font-size: .85em;
-  }
-
+  
   &-container {
-  height: auto; 
-  max-height: 100%;
+    height: auto; 
+    max-height: 100%;
   }
-
+  
   &-link {
     display: block;
     padding: vars.$halfGutter vars.$gutter;
     transition: color .2s, box-shadow .4s;
     color: rgba(255,255,255,.75);
-
+    
     &:hover:not(&--active) {
       color: white;
     }
-
+    
     &--active {
       color: vars.$color;
       box-shadow: inset -3px 0 0 vars.$color;
     }
+  }
+
+  @media (max-width: vars.$small) {
+    width: 150px;
+    font-size: .85em;
+    
   }
 }

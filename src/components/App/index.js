@@ -25,7 +25,8 @@ function App({ loading }) {
       
       <Routes>
         <Route
-          path="/"
+          path="/cat"
+          
           element={<Home />}
         />
 
