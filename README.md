@@ -3,6 +3,15 @@
 ## Référencement de chats
 Ce site permet de rechercher des chats par race, origine et une description. <br>
 
+Projet d'application météo utilisant React redux.
+
+Construit avec
+
+[React redux](https://react-redux.js.org/) <br>
+[Javascript](https://www.javascript.com/)<br>
+[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) <br>
+[HTML5](https://www.w3schools.com/html/default.asp) <br>
+[SASS](https://sass-lang.com/)
 ### Etape 1
 
 • Installation React modèle <br>
